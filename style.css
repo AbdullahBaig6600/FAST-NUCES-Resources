@@ -1,0 +1,55 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white
+}
+
+hr {
+  border-color: #fb2098;
+  border-width: 3px;
+  max-width: 65px;
+  margin: 10px auto; /* margin centered the hr for me here */
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px; /* border-radius to make a button rounded from sides*/
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color:#fb2098;
+  border-color: #fb2098;
+}
+
+.btn-primary:hover {
+  background-color: #ff008c;
+  border-color: #ff008c;
+  border-width: 4px;
+}
+
+.btn-primary:active, .btn-primary:focus{
+  background-color: #ff008c;
+  border-color: #ff008c;
+}
+
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
